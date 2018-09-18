@@ -1,25 +1,38 @@
 {
-  "name": "usbprinter",
-  "version": "1.0.0",
-  "description": "usb cordova plugin",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "cordova-plugin-usbprint",
+  "version": "0.0.1",
+  "description": "\n    This Plugin allows you to print documents via USB.\n  ",
+  "cordova": {
+    "id": "cordova-plugin-usbprint",
+    "platforms": [
+      "android"
+    ]
   },
+  "dependencies": {},
+  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vinayagamkrishnan/usbprinter.git"
+    "url": "git+https://github.com/ArunYogi/paytm-cordova-plugin.git"
   },
   "keywords": [
     "cordova",
-    "usb",
-    "printer",
-    "plugin"
+    "plugin",
+    "USB",
+    "print",
+    "Mobile",
+    "ecosystem:cordova",
+    "cordova-android"
   ],
-  "author": "vinay",
-  "license": "ISC",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.4.0"
+    }
+  ],
+  "author": "",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vinayagamkrishnan/usbprinter/issues"
+    "url": "https://github.com/ArunYogi/paytm-cordova-plugin/issues"
   },
-  "homepage": "https://github.com/vinayagamkrishnan/usbprinter#readme"
+  "homepage": "https://github.com/ArunYogi/paytm-cordova-plugin#readme"
 }
